@@ -1,4 +1,4 @@
 // @flow
 import { getName } from './database'
 
-console.log(getName({ name: 'jack' }))
+console.log(getName({ name: 123 }))

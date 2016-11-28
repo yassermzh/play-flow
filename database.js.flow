@@ -1,0 +1,4 @@
+// @flow
+
+declare export function getName(props: {age?: number, name: string}): string;
+
