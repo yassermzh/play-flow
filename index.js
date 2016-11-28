@@ -1,10 +1,4 @@
 // @flow
-
-type Props = {
-  name: string,
-  age?: number,
-}
-
-const getName = (props: Props): string => props.name
+import { getName } from './database'
 
 console.log(getName({ name: 'jack' }))
